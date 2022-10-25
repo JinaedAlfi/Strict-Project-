@@ -1,0 +1,211 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 h2 h3 h4 h5 h6 p ul{
+    margin: 0; 
+    padding: 0;
+}
+header{
+
+background-color: #f6f9f9;
+
+padding: 20px 0;
+}
+.header_wraper{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+nav ul li{
+
+margin-left: 30px;
+}
+nav ul li a{
+
+font-family: 'Lato', sans-serif;
+
+font-weight: 700;
+
+font-size: 16px;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: #2d3950;
+}
+.baner{background-image:url(../images/baner.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baner_content{
+
+width: 35%;
+
+text-align: center;
+}
+.baner_content h1{
+    
+color: #ffff;
+    
+font-family: 'Lato', sans-serif;
+    
+font-size: 80px;
+    
+font-weight: 700;
+    
+text-transform: uppercase;
+    
+margin-bottom: 10px;
+}
+.baner_content p{
+    
+font-family: 'Lato', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 15px;
+    
+color: #ffff;
+    
+margin: 20px 0 40px 0;
+}
+.baner_content span{
+    
+display: block;
+    
+background-color: #15a4fa;
+    
+height: 3px;
+} 
+.baner_content button{
+    
+font-family: 'Lato', sans-serif;
+    
+font-size: 16px;
+    
+font-weight: 400;
+    
+background-color: transparent;
+    
+border: none;
+    
+border: 1px solid #15a4fa;
+    
+padding: 10px 20px;
+    
+border-radius: 5px;
+    
+color: #ffff;
+transition: .5s all ease-in-out;
+cursor: pointer;
+}
+.baner_content button:hover{
+    background-color: #15a4fa;
+    color: #f6f9f9;
+}
+.content{
+
+background-color: #f6f9f9;
+
+padding: 60px 0;
+}
+.text_content{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.text_content h1{
+
+color: #2d3950;
+
+margin-bottom: 20px;
+
+font-family: 'Lato', sans-serif;
+
+font-weight: 400;
+
+font-size: 30px;
+}
+.text_content p{
+    
+color: #999999;
+    
+font-family: 'Lato', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 16px;
+}
+.service_section{
+
+width: 80%;
+
+margin: auto;
+
+padding: 50px 0;
+}
+.service{
+
+display: flex;
+
+justify-content: space-between;
+}
+.service_item{
+
+width: 31%;
+
+text-align: center;
+}
+.service_item img{
+
+}
+.service_item h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+    font-size: 23px;
+    padding: 14px 0;
+}
+.service_item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
